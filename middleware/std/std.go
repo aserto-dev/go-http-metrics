@@ -13,7 +13,7 @@ func Handler(handlerID string, m middleware.Middleware, h http.Handler) http.Han
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		wi := NewResponseWriterInterceptor(w)
 		reporter := &stdReporter{
-			capturedResponse: wi,
+			CapturedResponse: wi,
 			r:                r,
 		}
 
@@ -31,13 +31,13 @@ func HandlerProvider(handlerID string, m middleware.Middleware) func(http.Handle
 	}
 }
 
-type capturedResponse interface {
+type CapturedResponse interface {
 	StatusCode() int
 	BytesWritten() int64
 }
 
 type stdReporter struct {
-	capturedResponse
+	CapturedResponse
 	r *http.Request
 }
 
