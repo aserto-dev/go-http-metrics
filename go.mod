@@ -14,6 +14,7 @@ require (
 	github.com/labstack/echo/v4 v4.6.1
 	github.com/prometheus/client_golang v1.11.0
 	github.com/stretchr/testify v1.7.0
+	github.com/ucarion/urlpath v0.0.0-20200424170820-7ccc79b76bbb
 	github.com/urfave/negroni v1.0.0
 	github.com/valyala/fasthttp v1.31.0
 	go.opencensus.io v0.23.0
