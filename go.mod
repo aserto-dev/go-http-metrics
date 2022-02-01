@@ -7,6 +7,7 @@ require (
 	github.com/gin-gonic/gin v1.7.7
 	github.com/go-chi/chi v4.1.2+incompatible
 	github.com/gorilla/mux v1.8.0
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.3
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/justinas/alice v1.2.0
 	github.com/kataras/iris/v12 v12.2.0-alpha5
@@ -17,6 +18,7 @@ require (
 	github.com/valyala/fasthttp v1.31.0
 	go.opencensus.io v0.23.0
 	goji.io v2.0.2+incompatible
+	google.golang.org/grpc v1.43.0
 )
 
 require (
@@ -85,6 +87,7 @@ require (
 	golang.org/x/sys v0.0.0-20211124211545-fe61309f8881 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11 // indirect
+	google.golang.org/genproto v0.0.0-20220118154757-00ab72f36ad5 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/ini.v1 v1.66.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
