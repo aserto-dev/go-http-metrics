@@ -8,11 +8,11 @@ import (
 	"syscall"
 	"time"
 
+	metrics "github.com/aserto-dev/go-http-metrics/metrics/prometheus"
+	"github.com/aserto-dev/go-http-metrics/middleware"
+	"github.com/aserto-dev/go-http-metrics/middleware/std"
 	"github.com/justinas/alice"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	"github.com/slok/go-http-metrics/middleware/std"
 )
 
 const (

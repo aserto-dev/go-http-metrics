@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	mmetrics "github.com/slok/go-http-metrics/internal/mocks/metrics"
-	"github.com/slok/go-http-metrics/metrics"
-	"github.com/slok/go-http-metrics/middleware"
-	ginmiddleware "github.com/slok/go-http-metrics/middleware/gin"
+	mmetrics "github.com/aserto-dev/go-http-metrics/internal/mocks/metrics"
+	"github.com/aserto-dev/go-http-metrics/metrics"
+	"github.com/aserto-dev/go-http-metrics/middleware"
+	ginmiddleware "github.com/aserto-dev/go-http-metrics/middleware/gin"
 )
 
 func TestMiddleware(t *testing.T) {
@@ -57,7 +57,7 @@ func TestMiddleware(t *testing.T) {
 			expRespBody: "test1",
 		},
 
-		"A default HTTP middleware using JSON should call the recorder to measure (Regression test: https://github.com/slok/go-http-metrics/issues/31).": {
+		"A default HTTP middleware using JSON should call the recorder to measure (Regression test: https://github.com/aserto-dev/go-http-metrics/issues/31).": {
 			req: func() *http.Request {
 				return httptest.NewRequest(http.MethodPost, "/test", nil)
 			},

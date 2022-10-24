@@ -6,7 +6,7 @@ import (
 
 	gorestful "github.com/emicklei/go-restful/v3"
 
-	"github.com/slok/go-http-metrics/middleware"
+	"github.com/aserto-dev/go-http-metrics/middleware"
 )
 
 // Handler returns a gorestful measuring middleware.

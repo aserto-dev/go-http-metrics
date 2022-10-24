@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/slok/go-http-metrics/metrics"
+	"github.com/aserto-dev/go-http-metrics/metrics"
 )
 
 // Config is the configuration for the middleware factory.

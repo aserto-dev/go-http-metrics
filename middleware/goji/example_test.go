@@ -8,9 +8,9 @@ import (
 	"goji.io"
 	"goji.io/pat"
 
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	gojimiddleware "github.com/slok/go-http-metrics/middleware/goji"
+	metrics "github.com/aserto-dev/go-http-metrics/metrics/prometheus"
+	"github.com/aserto-dev/go-http-metrics/middleware"
+	gojimiddleware "github.com/aserto-dev/go-http-metrics/middleware/goji"
 )
 
 // GojiMiddleware shows how you would create a default middleware factory and use it

@@ -6,9 +6,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	stdmiddleware "github.com/slok/go-http-metrics/middleware/std"
+	metrics "github.com/aserto-dev/go-http-metrics/metrics/prometheus"
+	"github.com/aserto-dev/go-http-metrics/middleware"
+	stdmiddleware "github.com/aserto-dev/go-http-metrics/middleware/std"
 )
 
 // NegroniMiddleware shows how you would create a default middleware factory and use it

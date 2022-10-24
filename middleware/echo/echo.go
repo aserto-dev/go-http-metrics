@@ -4,8 +4,8 @@ package echo
 import (
 	"context"
 
+	"github.com/aserto-dev/go-http-metrics/middleware"
 	"github.com/labstack/echo/v4"
-	"github.com/slok/go-http-metrics/middleware"
 )
 
 // Handler returns a Echo measuring middleware.

@@ -5,7 +5,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/slok/go-http-metrics/middleware"
+	"github.com/aserto-dev/go-http-metrics/middleware"
 )
 
 // Handler returns an measuring standard http.Handler.

@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
+	"github.com/aserto-dev/go-http-metrics/middleware"
+	"github.com/aserto-dev/go-http-metrics/middleware/std"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
-	"github.com/slok/go-http-metrics/middleware"
-	"github.com/slok/go-http-metrics/middleware/std"
 	"google.golang.org/grpc/metadata"
 )
 

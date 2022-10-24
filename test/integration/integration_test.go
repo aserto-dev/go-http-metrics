@@ -26,17 +26,17 @@ import (
 	"goji.io"
 	"goji.io/pat"
 
-	metricsprometheus "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	echomiddleware "github.com/slok/go-http-metrics/middleware/echo"
-	fasthttpmiddleware "github.com/slok/go-http-metrics/middleware/fasthttp"
-	ginmiddleware "github.com/slok/go-http-metrics/middleware/gin"
-	gojimiddleware "github.com/slok/go-http-metrics/middleware/goji"
-	gorestfulmiddleware "github.com/slok/go-http-metrics/middleware/gorestful"
-	httproutermiddleware "github.com/slok/go-http-metrics/middleware/httprouter"
-	irismiddleware "github.com/slok/go-http-metrics/middleware/iris"
-	negronimiddleware "github.com/slok/go-http-metrics/middleware/negroni"
-	stdmiddleware "github.com/slok/go-http-metrics/middleware/std"
+	metricsprometheus "github.com/aserto-dev/go-http-metrics/metrics/prometheus"
+	"github.com/aserto-dev/go-http-metrics/middleware"
+	echomiddleware "github.com/aserto-dev/go-http-metrics/middleware/echo"
+	fasthttpmiddleware "github.com/aserto-dev/go-http-metrics/middleware/fasthttp"
+	ginmiddleware "github.com/aserto-dev/go-http-metrics/middleware/gin"
+	gojimiddleware "github.com/aserto-dev/go-http-metrics/middleware/goji"
+	gorestfulmiddleware "github.com/aserto-dev/go-http-metrics/middleware/gorestful"
+	httproutermiddleware "github.com/aserto-dev/go-http-metrics/middleware/httprouter"
+	irismiddleware "github.com/aserto-dev/go-http-metrics/middleware/iris"
+	negronimiddleware "github.com/aserto-dev/go-http-metrics/middleware/negroni"
+	stdmiddleware "github.com/aserto-dev/go-http-metrics/middleware/std"
 )
 
 // server is the interface used by the integration tests to return a listening server
