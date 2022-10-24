@@ -7,11 +7,11 @@ import (
 	"os/signal"
 	"syscall"
 
+	metrics "github.com/aserto-dev/go-http-metrics/metrics/prometheus"
+	"github.com/aserto-dev/go-http-metrics/middleware"
+	ginmiddleware "github.com/aserto-dev/go-http-metrics/middleware/gin"
 	"github.com/gin-gonic/gin"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	ginmiddleware "github.com/slok/go-http-metrics/middleware/gin"
 )
 
 const (

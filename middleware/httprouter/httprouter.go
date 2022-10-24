@@ -6,8 +6,8 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"github.com/slok/go-http-metrics/middleware"
-	"github.com/slok/go-http-metrics/middleware/std"
+	"github.com/aserto-dev/go-http-metrics/middleware"
+	"github.com/aserto-dev/go-http-metrics/middleware/std"
 )
 
 // Handler returns a httprouter.Handler measuring middleware.

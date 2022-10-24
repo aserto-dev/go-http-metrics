@@ -12,8 +12,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/slok/go-http-metrics/metrics"
-	libprometheus "github.com/slok/go-http-metrics/metrics/prometheus"
+	"github.com/aserto-dev/go-http-metrics/metrics"
+	libprometheus "github.com/aserto-dev/go-http-metrics/metrics/prometheus"
 )
 
 func TestPrometheusRecorder(t *testing.T) {

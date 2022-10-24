@@ -6,7 +6,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/slok/go-http-metrics/metrics"
+	"github.com/aserto-dev/go-http-metrics/metrics"
 )
 
 // Config has the dependencies and values of the recorder.

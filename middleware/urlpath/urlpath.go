@@ -6,14 +6,14 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/slok/go-http-metrics/middleware"
-	"github.com/slok/go-http-metrics/middleware/std"
+	"github.com/aserto-dev/go-http-metrics/middleware"
+	"github.com/aserto-dev/go-http-metrics/middleware/std"
 	"github.com/ucarion/urlpath"
 )
 
 // URLMatchMetricsMiddleware creates http middleware that reports metrics to prometheus using URL path matching.
 //
-// It is a variation on "github.com/slok/go-http-metrics/middleware/std" but instead of reporting the full URL path,
+// It is a variation on "github.com/aserto-dev/go-http-metrics/middleware/std" but instead of reporting the full URL path,
 // this version uses a list of urlpath.Path objects and uses the matching path as the request's handler.
 // This is done to reduce the cardinality of reported metrics and group metrics by route.
 func URLMatchMetricsMiddleware(paths []urlpath.Path, m middleware.Middleware) func(http.Handler) http.Handler {

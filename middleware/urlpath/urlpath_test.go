@@ -3,7 +3,7 @@ package urlpath_test
 import (
 	"testing"
 
-	metrics "github.com/slok/go-http-metrics/middleware/urlpath"
+	metrics "github.com/aserto-dev/go-http-metrics/middleware/urlpath"
 	"github.com/ucarion/urlpath"
 
 	"github.com/stretchr/testify/assert"

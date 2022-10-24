@@ -7,9 +7,9 @@ import (
 	"github.com/kataras/iris/v12"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	irismiddleware "github.com/slok/go-http-metrics/middleware/iris"
+	metrics "github.com/aserto-dev/go-http-metrics/metrics/prometheus"
+	"github.com/aserto-dev/go-http-metrics/middleware"
+	irismiddleware "github.com/aserto-dev/go-http-metrics/middleware/iris"
 )
 
 // IrisMiddleware shows how you would create a default middleware factory and use it

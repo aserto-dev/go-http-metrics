@@ -9,9 +9,9 @@ the main Go net/http handler:
 		"net/http"
 
 		"github.com/prometheus/client_golang/prometheus/promhttp"
-		httpmetrics "github.com/slok/go-http-metrics/metrics/prometheus"
-		httpmiddleware "github.com/slok/go-http-metrics/middleware"
-		httpstdmiddleware "github.com/slok/go-http-metrics/middleware/std"
+		httpmetrics "github.com/aserto-dev/go-http-metrics/metrics/prometheus"
+		httpmiddleware "github.com/aserto-dev/go-http-metrics/middleware"
+		httpstdmiddleware "github.com/aserto-dev/go-http-metrics/middleware/std"
 	)
 
 	func main() {
@@ -43,7 +43,7 @@ package gohttpmetrics
 // blank imports help docs.
 import (
 	// Import metrics package.
-	_ "github.com/slok/go-http-metrics/metrics"
+	_ "github.com/aserto-dev/go-http-metrics/metrics"
 	// Import middleware package.
-	_ "github.com/slok/go-http-metrics/middleware"
+	_ "github.com/aserto-dev/go-http-metrics/middleware"
 )

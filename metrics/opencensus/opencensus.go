@@ -8,7 +8,7 @@ import (
 	"go.opencensus.io/stats/view"
 	"go.opencensus.io/tag"
 
-	"github.com/slok/go-http-metrics/metrics"
+	"github.com/aserto-dev/go-http-metrics/metrics"
 )
 
 var (

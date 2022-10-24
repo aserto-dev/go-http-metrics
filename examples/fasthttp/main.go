@@ -11,9 +11,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/valyala/fasthttp"
 
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	fasthttpmiddleware "github.com/slok/go-http-metrics/middleware/fasthttp"
+	metrics "github.com/aserto-dev/go-http-metrics/metrics/prometheus"
+	"github.com/aserto-dev/go-http-metrics/middleware"
+	fasthttpmiddleware "github.com/aserto-dev/go-http-metrics/middleware/fasthttp"
 )
 
 const (

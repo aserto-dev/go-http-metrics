@@ -7,9 +7,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	ginmiddleware "github.com/slok/go-http-metrics/middleware/gin"
+	metrics "github.com/aserto-dev/go-http-metrics/metrics/prometheus"
+	"github.com/aserto-dev/go-http-metrics/middleware"
+	ginmiddleware "github.com/aserto-dev/go-http-metrics/middleware/gin"
 )
 
 // GinMiddleware shows how you would create a default middleware factory and use it

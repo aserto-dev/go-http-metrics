@@ -64,9 +64,9 @@ import (
     "net/http"
 
     "github.com/prometheus/client_golang/prometheus/promhttp"
-    metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-    "github.com/slok/go-http-metrics/middleware"
-    middlewarestd "github.com/slok/go-http-metrics/middleware/std"
+    metrics "github.com/aserto-dev/go-http-metrics/metrics/prometheus"
+    "github.com/aserto-dev/go-http-metrics/middleware"
+    middlewarestd "github.com/aserto-dev/go-http-metrics/middleware/std"
 )
 
 func main() {
@@ -205,13 +205,13 @@ Same options as the Prometheus recorder.
 
 This Option is used to unregister the Recorder views before are being registered, this is option is mainly due to the nature of OpenCensus implementation and the huge usage fo global state making impossible to run multiple tests. On regular usage of the library this setting is very rare that needs to be used.
 
-[github-actions-image]: https://github.com/slok/go-http-metrics/workflows/CI/badge.svg
-[github-actions-url]: https://github.com/slok/go-http-metrics/actions
-[goreport-image]: https://goreportcard.com/badge/github.com/slok/go-http-metrics
-[goreport-url]: https://goreportcard.com/report/github.com/slok/go-http-metrics
-[godoc-image]: https://pkg.go.dev/badge/github.com/slok/go-http-metrics
-[godoc-url]: https://pkg.go.dev/github.com/slok/go-http-metrics
-[docs]: https://godoc.org/github.com/slok/go-http-metrics
+[github-actions-image]: https://github.com/aserto-dev/go-http-metrics/workflows/CI/badge.svg
+[github-actions-url]: https://github.com/aserto-dev/go-http-metrics/actions
+[goreport-image]: https://goreportcard.com/badge/github.com/aserto-dev/go-http-metrics
+[goreport-url]: https://goreportcard.com/report/github.com/aserto-dev/go-http-metrics
+[godoc-image]: https://pkg.go.dev/badge/github.com/aserto-dev/go-http-metrics
+[godoc-url]: https://pkg.go.dev/github.com/aserto-dev/go-http-metrics
+[docs]: https://godoc.org/github.com/aserto-dev/go-http-metrics
 [examples]: examples/
 [red]: https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-architecture/
 [four golden signals]: https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals
@@ -229,7 +229,7 @@ This Option is used to unregister the Recorder views before are being registered
 [gorilla-example]: examples/gorilla
 [prometheus-recorder]: metrics/prometheus
 [opencensus-recorder]: metrics/opencensus
-[handler-provider-docs]: https://pkg.go.dev/github.com/slok/go-http-metrics/middleware/std#HandlerProvider
+[handler-provider-docs]: https://pkg.go.dev/github.com/aserto-dev/go-http-metrics/middleware/std#HandlerProvider
 [fasthttp-example]: examples/fasthttp
-[import-information-1]: https://github.com/slok/go-http-metrics/issues/46
-[import-information-2]: https://github.com/slok/go-http-metrics-imports
+[import-information-1]: https://github.com/aserto-dev/go-http-metrics/issues/46
+[import-information-2]: https://github.com/aserto-dev/go-http-metrics-imports
